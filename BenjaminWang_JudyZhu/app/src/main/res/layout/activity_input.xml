@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="ca.bcit.ass1.benjaminwang_judyzhu.InputActivity"
+    android:weightSum="1">
+
+
+    <Spinner
+        android:id="@+id/conversion_list"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.03"
+        android:entries="@array/conversion_type" />
+
+    <EditText
+        android:id="@+id/input_length"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_alignLeft="@+id/send"
+        android:layout_below="@+id/send"
+        android:layout_marginTop="18dp"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:onClick="onClickConvert"
+        android:text="@string/convert_button" />
+
+</LinearLayout>

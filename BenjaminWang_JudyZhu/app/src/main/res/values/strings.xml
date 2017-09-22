@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BenjaminWang_JudyZhu</string>
+    <string name="convert_button">Convert</string>
+    <string name="back_button">Back</string>
+    <string-array name="conversion_type">
+        <item>Kilometres to Miles</item>
+        <item>Miles to Kilometres</item>
+        <item>Metres to Yards</item>
+        <item>Yards to Metres</item>
+        <item>Metres to Feet</item>
+        <item>Feet to Metres</item>
+    </string-array>
+
+</resources>
