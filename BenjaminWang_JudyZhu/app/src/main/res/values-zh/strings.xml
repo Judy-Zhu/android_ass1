@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BenjaminWang_JudyZhu</string>
+    <string name="convert_button">转换</string>
+    <string name="back_button">后退</string>
+    <string name="km_convert_to">千米 到</string>
+    <string name="mi">英里.</string>
+    <string name="mi_convert_to">英里 到</string>
+    <string name="km">千米.</string>
+    <string name="m_convert_to">米 到</string>
+    <string name="yd">码.</string>
+    <string name="yd_convert_to">码 到</string>
+    <string name="m">米.</string>
+    <string name="ft_convert_to">英尺 到</string>
+    <string name="ft">英尺.</string>
+    <string-array name="conversion_type">
+        <item>千米 到 英里</item>
+        <item>英里 到 千米</item>
+        <item>米 到 码</item>
+        <item>码 到 米</item>
+        <item>米 到 英尺</item>
+        <item>英尺 到 米</item>
+    </string-array>
+</resources>
