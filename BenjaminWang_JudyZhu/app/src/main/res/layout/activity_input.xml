@@ -29,8 +29,6 @@
         android:textAlignment="center"
         android:textSize="40sp"
         android:layout_gravity="center"
-        android:layout_alignLeft="@+id/send"
-        android:layout_below="@+id/send"
         android:layout_marginTop="18dp"
         android:ems="10"/>
 

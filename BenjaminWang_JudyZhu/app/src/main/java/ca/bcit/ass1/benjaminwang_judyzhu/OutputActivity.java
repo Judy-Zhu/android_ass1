@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+
 public class OutputActivity extends Activity {
 
     public static final String EXTRA_MESSAGE = "msg";

@@ -2,6 +2,16 @@
     <string name="app_name">BenjaminWang_JudyZhu</string>
     <string name="convert_button">Convert</string>
     <string name="back_button">Back</string>
+    <string name="km_convert_to">Kilometres converts to</string>
+    <string name="mi">Miles.</string>
+    <string name="mi_convert_to">Miles converts to</string>
+    <string name="km">Kilometres.</string>
+    <string name="m_convert_to">Metres converts to</string>
+    <string name="yd">Yards.</string>
+    <string name="yd_convert_to">Yards converts to</string>
+    <string name="m">Metres.</string>
+    <string name="ft_convert_to">Feet converts to</string>
+    <string name="ft">Feet.</string>
     <string-array name="conversion_type">
         <item>Kilometres to Miles</item>
         <item>Miles to Kilometres</item>
@@ -10,5 +20,4 @@
         <item>Metres to Feet</item>
         <item>Feet to Metres</item>
     </string-array>
-
 </resources>
