@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_gravity="center"
-        android:onClick="onClickConvert"
+        android:onClick="onClick"
         android:text="@string/convert_button" />
 
 </LinearLayout>
